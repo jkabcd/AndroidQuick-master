@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\59a61b83478d2b6fa748dbab74654757\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\59a61b83478d2b6fa748dbab74654757\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\59a61b83478d2b6fa748dbab74654757\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\59a61b83478d2b6fa748dbab74654757\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\59a61b83478d2b6fa748dbab74654757\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.2.aar\\7261acd8ad2283f64d84b5b239616391\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\59a61b83478d2b6fa748dbab74654757\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\59a61b83478d2b6fa748dbab74654757\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\59a61b83478d2b6fa748dbab74654757\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\Program Files\\AndroidQuick-master\\Core\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\18650\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\59a61b83478d2b6fa748dbab74654757\\res\\color-v23\\abc_color_highlight_material.xml"
+    }
+]

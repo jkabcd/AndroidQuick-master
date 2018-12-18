@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    defaultConfig {
+        applicationId "la.xiong.androidquick"
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    lintOptions{
+        abortOnError false
+    }
+    dexOptions {
+        //是否支持大工程模式
+        jumboMode true
+        //最大堆内存
+        javaMaxHeapSize "4g"
+        //使用增量模式构建
+//        incremental true
+        //预编译
+        preDexLibraries = true
+        //线程数
+        threadCount = 8
+    }
+}
+
+dependencies {
+    implementation rootProject.ext.dependencies["appcompatv7"]
+    implementation rootProject.ext.dependencies["design"]
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    releaseCompile project(path: ':Core', configuration: 'release')
+//    debugCompile project(path: ':Core', configuration: 'debug')
+    implementation project(':Core')
+    //butterknife
+    annotationProcessor "com.jakewharton:butterknife-compiler:8.6.0"
+    //rxjava
+    implementation 'io.reactivex:rxjava:latest.release'
+    implementation 'io.reactivex:rxandroid:latest.release'
+    //dagger2
+    implementation 'com.google.dagger:dagger:2.7'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.7'
+    //greendao
+    implementation 'de.greenrobot:greendao:2.1.0'
+    //markdown
+    implementation 'us.feras.mdv:markdownview:1.1.0'
+    //banner
+    implementation 'com.youth.banner:banner:1.4.10'
+    //smarttablayout
+    implementation 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    //flycotablayout
+    implementation "com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar"
+    //fastjson
+    implementation 'com.alibaba:fastjson:1.2.44'
+    //fragmentation
+    implementation "me.yokeyword:fragmentation:1.3.1"
+    //adapter
+    implementation "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.24"
+    //AndroidUtilCode
+    implementation 'com.blankj:utilcode:1.17.0'
+    implementation 'me.jessyan:autosize:1.0.6'
+
+    //eventbus
+    implementation 'de.greenrobot:eventbus:3.0.0-beta1'
+    //butterknife
+    implementation "com.jakewharton:butterknife:8.4.0"
+    annotationProcessor "com.jakewharton:butterknife-compiler:8.4.0"
+    //retrofit+okhttp
+    implementation 'com.squareup.retrofit2:retrofit:latest.release'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:latest.release'
+    implementation 'com.squareup.okhttp3:okhttp:latest.release'
+    implementation 'com.squareup.okhttp3:logging-interceptor:latest.release'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    implementation 'com.jakewharton.rxbinding:rxbinding:0.2.0'
+    //gson
+    implementation 'com.google.code.gson:gson:2.4'
+    //纯色沉浸式标题栏
+    implementation 'spa.lyh.cn:immersion-sdk:1.0.6'
+    //glide
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+}
